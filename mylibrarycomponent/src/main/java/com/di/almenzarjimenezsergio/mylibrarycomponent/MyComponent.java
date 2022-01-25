@@ -12,13 +12,14 @@ import android.widget.LinearLayout;
 import androidx.annotation.Nullable;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 
 import java.util.HashMap;
 
 public class MyComponent extends LinearLayout {
 
     private View rootView;
-    private EditText etUsername, etPassword;
+    private TextInputLayout etUsername, etPassword;
     private TextInputEditText tietUsername, tietPassword;
     private Button button;
     private HashMap<String, String> users= new HashMap<String, String>();
